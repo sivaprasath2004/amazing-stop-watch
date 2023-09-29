@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="main">
+    <div class="circle">
+        <div class="hours"><br><span style="--clr:aqua;">Hours</span>
+    <div id="hours" class="write" style="--clr:aqua;">00</div>
+    <svg>
+    <circle cx="70" cy="70" r="50"></circle>
+    <circle cx="70" cy="70" r="50" id="hh" style="--clr:aqua;"></circle></svg></div>
+    <div class="minutes">><br><span style="--clr:yellow;">Minutes</span>
+        <div id="minutes" class="write" style="--clr:yellow;">00</div>
+    <svg>
+        <circle cx="70" cy="70" r="50"></circle>
+        <circle cx="70" cy="70" r="50" id="mm" style="--clr:yellow;"></circle>
+        </svg></div>
+        <div class="seconds">><br><span style="--clr:rgb(238, 12, 181);">Seconds</span>
+        <div id="seconds" class="write" style="--clr:rgb(238, 12, 181);">00</div>
+        <svg>
+        <circle cx="70" cy="70" r="50"></circle>
+        <circle cx="70" cy="70" r="50" id="ss" style="--clr:rgb(238, 12, 181);"></circle>
+        </svg></div>
+        <div class="milliseconds"><br><span style="--clr:red;"> M.Seconds</span>
+        <div id="millisecond" class="write" style="--clr:red;">00</div>
+        <svg>
+        <circle cx="70" cy="70" r="50"></circle>
+        <circle cx="70" cy="70" r="50" id="me" style="--clr:red;"></circle>
+        </svg></div></div>
+</div>
+<div class="button">
+    <button class="start" id="start">Start</button>
+    <button class="stop" id="stop">Stop</button>
+    <button class="Reset" id="reset">Reset</button>
+</div>
+    <script src="script/main.js"></script>
+</body>
+</html>
